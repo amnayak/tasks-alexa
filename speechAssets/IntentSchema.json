@@ -1,0 +1,21 @@
+{
+  "intents": [
+    {
+      "intent": "ListTaskListsIntent",
+      "slots": []
+    },
+    {
+      "intent": "ListTasksIntent",
+      "slots": [
+        {
+          "name": "list",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    }
+  ]
+}

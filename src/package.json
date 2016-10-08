@@ -1,0 +1,11 @@
+{
+  "name": "tasks-alexa",
+  "version": "1.0.0",
+  "description": "An Amazon Echo Skill that is compatible with Google Tasks",
+  "main": "index.js",
+  "author": ":3",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^1.2.0"
+  }
+}
