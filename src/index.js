@@ -21,8 +21,7 @@ Tasks.prototype.eventHandlers.onSessionStarted = function(sessionStartedRequest,
 };
 
 Tasks.prototype.eventHandlers.onLaunch = function(launchRequest, session, response){
-  // This is when they launch the skill but don't specify what they want. Prompt
-  // them for their bus stop
+  // This is when they launch the skill but don't specify what they want. Prompt user.
   var output = 'Welcome to Tasks. ' +
     'You may list tasks and task lists.';
 
